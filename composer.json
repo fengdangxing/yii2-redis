@@ -1,0 +1,32 @@
+{
+    "name": "fengdangxing/yii2-redis",
+    "description": "yii2-redis",
+    "keywords": ["yii2", "yii2-redis", "redis"],
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "fengdangxing",
+            "email": "972530453@qq.com",
+            "homepage": "",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.2.0",
+        "yiisoft/yii2": "~2.0.14"
+    },
+    "repositories": [
+      {
+        "type": "composer",
+        "url": "https://asset-packagist.org"
+      }
+    ],
+    "require-dev":{
+      "fengdangxing/yii2-redis":"dev-master"
+    },
+    "autoload": {
+      "psr-4": {
+        "fengdangxing\\redis\\": "lib"
+      }
+    }
+}
